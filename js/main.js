@@ -247,7 +247,7 @@
     if (typeof canvas.getContext === undefined) {
       return;
     }
-    const maze = new Maze(canvas, 55, 33); //[99, 141] => A4
+    const maze = new Maze(canvas, 25, 45); //[99, 141] => A4
     maze.run();
   }
   main();
