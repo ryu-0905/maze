@@ -247,9 +247,8 @@
     if (typeof canvas.getContext === undefined) {
       return;
     }
-    const maze = new Maze(canvas, 111, 55); //[99, 141] => A4; [111, 55] => myPCscreen;
+    const maze = new Maze(canvas, 55, 33); //[99, 141] => A4
     maze.run();
   }
-  // alert('簡単な迷路アプリです。矢印キーを押すとキャラクターが表示されます。迷路を印刷する際は矢印キーを押す前に「ctrl+p」で印刷をしてください。');
   main();
 }
